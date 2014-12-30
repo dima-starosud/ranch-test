@@ -2,10 +2,11 @@
   [
     {description, ""},
     {vsn, "1"},
-    {registered, []},
+    {registered, [reverse_sup]},
     {applications, [
       kernel,
-      stdlib
+      stdlib,
+      ranch
     ]},
     {mod, {reverse_app, []}},
     {env, []}
