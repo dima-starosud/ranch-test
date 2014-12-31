@@ -5,6 +5,7 @@ deps
 *.o
 *.beam
 *.plt
+*.iml
 erl_crash.dump
 ebin
 rel/reverse
